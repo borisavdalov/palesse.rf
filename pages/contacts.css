@@ -1,0 +1,254 @@
+@import url(../vendor/fonts/releway.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/width/width.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_item/header__menu_item.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_img/header__button_img.css);
+@import url(../blocks/header/__contactUs/header__contactUs.css);
+@import url(../blocks/header/__contactUs/_text/header__contactUs_text.css);
+
+.content__contacts {
+    max-width: 1110px;
+    margin: 0 7.466666667vw;
+}
+
+@media screen and (min-width: 522.3214286px) {
+    .content__contacts {
+        margin: 0 39px;
+    }
+}
+
+@media screen and (min-width: 1188px) {
+    .content__contacts {
+        margin: 0 auto;
+    }
+}
+
+.title-contacts {
+    margin-top: 12.8vw;
+    margin-bottom: 8.533333333vw;
+}
+
+@media screen and (min-width: 468.75px) {
+    .title-contacts {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 625px) {
+    .title-contacts {
+        margin-top: 80px;
+    }
+}
+
+.title-contacts__title {
+    font-family: Raleway;
+    font-size: 6.933333333vw;
+    font-weight: 700;
+    line-height: 8.32vw;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+@media screen and (min-width: 461.5384615px) {
+    .title-contacts__title {
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title-contacts__title {
+        font-size: 4.166666667vw;
+        line-height: 5vw;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .title-contacts__title {
+        font-size: 40px;
+        line-height: 46.96px;
+    }
+}
+
+/* employees */
+
+.employees{
+    border-top: 1px solid black;
+}
+
+.employees__block {}
+
+.employees__block_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__block_title {
+        margin: 35px 0;
+    }
+}
+
+.employees__block_name {
+    font-family: Raleway;
+    font-size: 5.333333333vw;
+    font-weight: 700;
+    line-height: 6.4vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232222;
+}
+
+@media screen and (min-width: 450px) {
+    .employees__block_name {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .employees__block_name {
+        font-size: 3.125vw;
+        line-height: 3.75vw;
+    }
+}
+
+@media screen and (min-width: 896px) {
+    .employees__block_name {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}
+
+.employees__block_title_button {
+    background-color: #F24957;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.employees__block_title_button_img {
+    margin: auto;
+    width: 22px;
+    height: 22px;
+    padding: 8px;
+}
+
+
+.employees__cards {
+    padding: 0;
+}
+
+.employees__card {
+    list-style: none;
+    width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card {
+        width: 41.66666667vw;
+        max-width: 346px;
+    }
+}
+
+.employees__card_img {
+    width: 100%;
+    height: 270px;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card_img {
+        height: 35.15625vw;
+        max-height: 300px;
+    }
+}
+
+
+
+.employees__card_name {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232222;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card_name {
+        font-size: 2.083333333vw;
+        line-height: 2.916666667vw;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    .employees__card_name {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+}
+
+
+.employees__card_position {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232222;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card_position {
+        font-size: 1.822916667vw;
+        line-height: 2.1875vw;
+    }
+}
+
+@media screen and (min-width: 877.7142857px) {
+    .employees__card_position {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+}
+
+.employees__card_number {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #302795;
+}
+
+@media screen and (min-width: 768px) {
+    .employees__card_position {
+        font-size: 2.083333333vw;
+        line-height: 2.916666667vw;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    .employees__card_position {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+}
