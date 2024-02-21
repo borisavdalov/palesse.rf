@@ -1,0 +1,14 @@
+.header__contactUs {
+    display: none;
+    text-decoration: none;
+    width: 172px;
+    height: 43px;
+    background-color: #F24957;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 1081px) {
+    .header__contactUs {
+        display: flex;
+    }
+}

@@ -1,0 +1,25 @@
+.compain-info__card_title {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #2d2d2d;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__card_title {
+        text-align: left;
+        font-size: 5.208333333vw;
+        line-height: 6.114583333vw;
+    }
+}
+
+@media screen and (min-width: 1228.8px) {
+    .compain-info__card_title {
+        font-size: 64px;
+        line-height: 75.14px;
+    }
+}

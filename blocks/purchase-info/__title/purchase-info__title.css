@@ -1,0 +1,32 @@
+.purchase-info__title {
+    font-family: Raleway;
+    font-size: 5.866666667vw;
+    font-weight: 700;
+    line-height: 7.04vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+    grid-area: title;
+}
+
+@media screen and (min-width: 477.2727273px) {
+    .purchase-info__title {
+      font-size: 28px;
+      line-height: 34px;
+    }
+}
+  
+  @media screen and (min-width: 768px) {
+    .purchase-info__title {
+      font-size: 3.645833333vw;
+      line-height: 4.427083333vw;
+    }
+}
+  
+  @media screen and (min-width: 987.4285714px) {
+    .purchase-info__title {
+      font-size: 36px;
+      line-height: 43.2px;
+    }
+}

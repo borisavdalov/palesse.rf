@@ -1,0 +1,35 @@
+.compain-info__main_title {
+    font-family: Raleway;
+    font-size: 5.866666667vw;
+    font-weight: 700;
+    line-height: 7.04vw;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color: #F24957;
+
+    padding: 32px 0px 8px 0px;
+}
+
+@media screen and (min-width: 477.2727273px) {
+    .compain-info__main_title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__main_title {
+        padding: 40px 33px 8px 33px;
+
+        font-size: 3.645833333vw;
+        line-height: 4.375vw;
+    }
+}
+
+@media screen and (min-width: 987.4285714px) {
+    .compain-info__main_title {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+}

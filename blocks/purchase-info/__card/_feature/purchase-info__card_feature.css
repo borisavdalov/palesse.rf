@@ -1,0 +1,6 @@
+.purchase-info__card_feature {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    column-gap: 8px;
+}

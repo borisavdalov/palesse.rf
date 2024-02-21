@@ -1,0 +1,17 @@
+.compain-info__cards {
+    grid-area: two;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    padding: 40px 0 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+}

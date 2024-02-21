@@ -1,0 +1,12 @@
+.header__menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    column-gap: 24px;
+}
+
+@media screen and (min-width: 1081px) {
+    .header__menu {
+        display: flex;
+    }
+}

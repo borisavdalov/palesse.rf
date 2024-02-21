@@ -1,0 +1,14 @@
+.compain-info__img {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 80.26666667vw;
+    max-height: 533px;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__img {
+        height: 69.40104167vw;
+        max-height: 705px;
+        grid-area: one;
+    }
+}

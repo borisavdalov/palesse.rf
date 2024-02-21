@@ -1,0 +1,14 @@
+.header__button {
+    background-color: #F24957;
+    border-style: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+@media screen and (min-width: 1081px) {
+    .header__button {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.purchase-info__subtitle {
+    text-decoration: none;
+    grid-area: subtitle;
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 625px) {
+    .purchase-info__subtitle {
+        margin-left: auto;
+        margin-top: 0;
+    }
+}

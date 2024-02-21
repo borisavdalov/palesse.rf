@@ -1,0 +1,15 @@
+.main-ofer__contac-us {
+    display: flex;
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 450px) {
+    .main-ofer__contac-us {
+        width: 259px;
+    }
+}

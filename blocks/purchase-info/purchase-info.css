@@ -1,0 +1,17 @@
+.purchase-info {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2D2D2D;
+}
+
+@media screen and (min-width: 768px) {
+    .purchase-info {
+        padding-top: 10.41666667vw;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .purchase-info {
+        padding-top: 100px;
+    }
+}

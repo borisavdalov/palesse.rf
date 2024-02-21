@@ -1,0 +1,30 @@
+.compain-info__main {
+    background-color: #F1F4FF;
+    border-radius: 10px 10px 0 0;
+    width: calc(100vw - (7.466666667vw * 2));
+    margin-left: 7.466666667vw;
+}
+
+@media screen and (min-width: 522.3214286px) {
+    .compain-info__main {
+        width: calc(100vw - (39px * 2));
+        margin-left: 39px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info__main {
+        grid-area: one;
+        margin-top: auto;
+        margin-left: calc(39px - 33px);
+
+        width: 68.22916667vw;
+        max-width: 715px;
+    }
+}
+
+@media screen and (min-width: 1188px) {
+    .compain-info__main {
+        margin-left: calc((100vw - 1140px - 33px)/2);
+    }
+}

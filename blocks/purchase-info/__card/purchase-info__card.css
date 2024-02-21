@@ -1,0 +1,4 @@
+.purchase-info__card {
+    display: flex;
+    column-gap: 24px;
+}

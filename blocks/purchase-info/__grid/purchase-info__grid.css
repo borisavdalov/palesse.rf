@@ -1,0 +1,20 @@
+.purchase-info__grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "title"
+        "cards"
+        "subtitle"
+    ;
+    align-items: baseline;
+
+}
+
+@media screen and (min-width: 625px) {
+    .purchase-info__grid {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+        "title subtitle"
+        "cards cards";
+    }
+}

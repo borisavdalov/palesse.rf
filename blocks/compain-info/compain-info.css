@@ -1,0 +1,12 @@
+.compain-info {
+    background-color: #F1F4FF;
+}
+
+@media screen and (min-width: 768px) {
+    .compain-info {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-areas: "one" "two";
+    }
+}
+
